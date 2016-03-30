@@ -83,9 +83,9 @@ else
 		let s:Doxy_GlobalTemplateFile = s:Doxy_GlobalTemplateDir.'/doxygen.templates'
 	endif
 	"
-	let s:Doxy_LocalTemplateFile    = $HOME.'/.vim/bundle/doxygen-support/templates/doxygen.templates'
+	let s:Doxy_LocalTemplateFile    = $HOME.'/.vim/bundle/doxygen-support.vim/templates/doxygen.templates'
 	let s:Doxy_LocalTemplateDir     = fnamemodify( s:Doxy_LocalTemplateFile, ":p:h" ).'/'
-	let s:Doxy_CodeSnippets  				= $HOME.'/.vim/bundle/doxygen-support/codesnippets/'
+	let s:Doxy_CodeSnippets  				= $HOME.'/.vim/bundle/doxygen-support.vim/codesnippets/'
 	let s:Doxy_IndentErrorLog				= $HOME.'/.indent.errorlog'
 	"
   let s:escfilename 	= ' \%#[]'
