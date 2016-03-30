@@ -74,7 +74,7 @@ else
 	"
 	if match( expand("<sfile>"), expand("$HOME") ) == 0
 		" user installation assumed
-		let s:plugin_dir  	= $HOME.'/.vim/'
+		let s:plugin_dir  	= $HOME.'/.vim/bundle/'
 	else
 		" system wide installation
 		let s:installation						= 'system'
